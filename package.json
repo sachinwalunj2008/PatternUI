@@ -1,6 +1,6 @@
 {
-  "name": "ui-lib",
-  "version": "1.0.0",
+  "name": "ui-lib123",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
@@ -25,5 +25,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
 }
