@@ -1,0 +1,20 @@
+// Storybook style overrides
+
+p,
+ul,
+li {
+  font-size: unset;
+  font-weight: unset;
+  color: unset;
+}
+
+ul {
+  padding-left: 13px;
+}
+
+code {
+  font-size: 16px;
+  background: var(--lighter-gray);
+  padding: 2px;
+  color: var(--dark-purple);
+}

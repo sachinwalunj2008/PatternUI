@@ -28,13 +28,7 @@ const baseConfig = {
     extensions: ['.tsx', '.ts', '.js', '.json'],
   },
   externals: [
-    /^@patterninc\//,
-    'recharts',
-    'moment',
     'react',
-    'react-dom',
-    'react-router-dom',
-    '@airbrake/browser',
   ],
   plugins: [
     new CleanWebpackPlugin(),
